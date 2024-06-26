@@ -2,6 +2,8 @@
 
 Personal repository to replicate bugs found in NPM packages.
 
+**Github issue**: https://github.com/socketio/engine.io/issues/705
+
 This branch replicates a thrown error when using [`socket.io` (and `engine.io`)](https://github.com/socketio/engine.io) along with [`uWebSockets.js`](https://github.com/uNetworking/uWebSockets.js/):
 
 ```
