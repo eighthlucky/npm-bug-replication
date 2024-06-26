@@ -1,0 +1,25 @@
+diff --git a/node_modules/engine.io/build/userver.js b/node_modules/engine.io/build/userver.js
+index a945ff3..d63c69a 100644
+--- a/node_modules/engine.io/build/userver.js
++++ b/node_modules/engine.io/build/userver.js
+@@ -131,14 +131,20 @@ class uServer extends server_1.BaseServer {
+                 if (!client) {
+                     debug("upgrade attempt for closed client");
+                     res.close();
++
++                    return;
+                 }
+                 else if (client.upgrading) {
+                     debug("transport has already been trying to upgrade");
+                     res.close();
++
++                    return;
+                 }
+                 else if (client.upgraded) {
+                     debug("transport had already been upgraded");
+                     res.close();
++
++                    return;
+                 }
+                 else {
+                     debug("upgrading existing transport");

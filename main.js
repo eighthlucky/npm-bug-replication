@@ -27,3 +27,6 @@ try {
     `ws://localhost:3000/socket.io/?EIO=4&transport=websocket&sid=${socket.io.engine.id}`,
   );
 } catch {}
+
+// Exit when there is no error (i.e. using the patch)
+setTimeout(() => process.exit(0), 2_000);
