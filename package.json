@@ -1,0 +1,15 @@
+{
+  "type": "module",
+  "dependencies": {
+    "socket.io": "4.7.5",
+    "socket.io-client": "4.7.5",
+    "uWebSockets.js": "github:uNetworking/uWebSockets.js#v20.44.0"
+  },
+  "devDependencies": {
+    "engine.io": "6.6.0"
+  },
+  "prettier": {
+    "singleQuote": true,
+    "trailingComma": "all"
+  }
+}
