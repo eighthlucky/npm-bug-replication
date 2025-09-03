@@ -1,0 +1,20 @@
+{
+  "vendor": true,
+  "lint": {
+    "rules": {
+      "tags": [
+        "recommended"
+      ]
+    }
+  },
+  "fmt": {
+    "singleQuote": true
+  },
+  "tasks": {
+    "test": "deno test --allow-env --allow-net --location=https://www.example.com main.ts"
+  },
+  "imports": {
+    "@badgateway/oauth2-client": "npm:@badgateway/oauth2-client@3.3.0",
+    "msw": "npm:msw@2.1.1"
+  }
+}

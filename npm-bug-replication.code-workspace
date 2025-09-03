@@ -4,5 +4,11 @@
       "path": "."
     }
   ],
-  "settings": {}
+  "settings": {
+    "deno.enable": true,
+    "[typescript]": {
+      "editor.defaultFormatter": "denoland.vscode-deno",
+      "editor.formatOnSave": true
+    }
+  }
 }
