@@ -15,6 +15,7 @@
   },
   "imports": {
     "@badgateway/oauth2-client": "npm:@badgateway/oauth2-client@3.3.0",
+    "@std/assert": "jsr:@std/assert@1.0.14",
     "msw": "npm:msw@2.1.1"
   }
 }
